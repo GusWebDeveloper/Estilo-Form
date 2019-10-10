@@ -1,0 +1,95 @@
+        /* Etiqueta para incluir estilos css */
+        body {
+            /*Degradados Proveidos por UiGradients*/
+            background: #67B26F;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4ca2cd, #67B26F);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /* Tipo de letra de Contenedor h1*/
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 20px;
+        }
+        h1 {
+            /*Degradados Proveidos por UiGradients*/
+            background: #0F2027;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /*Contenedor redondeado para h1 */
+            border-radius: 25px;
+            /* Tipo de letra de Contenedor h1*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            /* Color de letra del contendor h1 */
+            color: #fff;
+            /* Espaciamiento del contenido de h1 */
+            padding: 3%;
+        }
+        section {
+            /*Degradados Proveidos por UiGradients*/
+            background: #0F2027;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            /*Contenedor redondeado para h1 */
+            border-radius: 25px;
+            /* Tipo de letra de Contenedor h1*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            /* Color de letra del contendor h1 */
+            color: #fff;
+            /* Espaciamiento del contenido de h1 */
+            padding: 1%;
+            align-content: center;
+        }
+        p {
+            /* Tipo de letra de Contenedor h1*/
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            font-size: 20px;
+            text-align: justify;
+        }
+        form {
+            width: 450px;
+            margin: auto;
+            background: #000;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+        h2 {
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 0px;
+            font-family: arial;
+        }
+        input,
+        textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            border: none;
+        }
+        textarea {
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+        }
+        #boton {
+            background: #31384A;
+            color: #FFF;
+            padding: 20PX;
+        }
+        #boton:hover {
+            cursor: pointer;
+        }
